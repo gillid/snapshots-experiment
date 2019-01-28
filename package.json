@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "snapshots-experiment",
+  "description": "Experiments with jest snapshots speed",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:gillid/snapshots-experiment"
+  },
+  "author": "Max Burov <dev@gillid.pro>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.8.0",
+    "jest": "^23.6.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js"
+  }
+}
